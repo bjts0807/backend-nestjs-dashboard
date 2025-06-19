@@ -47,6 +47,23 @@ node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 - Registre un cliente en la ruta /clients/register
 - Esta API usa JWT para autenticar a los clientes. Debes hacer login en la ruta /auth/login y luego usar el token para acceder a rutas protegidas.
 
+# Capturas de pantalla - Api con postman
+
+- Registro de Cliente
+![route register](/screenShots/register.png)
+
+- Login 
+![route login](/screenShots/login.png)
+
+- Rutas Protegidas jwt  
+![data clients](/screenShots/dataClientValidate.png)
+![dashboard](/screenShots/dashboardProtected.png)
+
+- Dashboard 
+![dashboard list](/screenShots/dashboardList.png)
+![dashboard create](/screenShots/dashboardCreate.png)
+
+
 
 
 
