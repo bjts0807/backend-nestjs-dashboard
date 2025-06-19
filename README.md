@@ -23,13 +23,13 @@ Este repositorio contiene la API REST construida con NestJS y MySQL para autenti
 # variables de entorno
 - Crea un archivo .env en la raiz del proyecto con el siguiente contenido:
 
-  DB_HOST=localhost
-  DB_PORT=3306
-  DB_USERNAME=root
-  DB_PASSWORD=tu_contraseña
-  DB_NAME=tu_db
-  JWT_SECRET=clave_secreta_segura
-  JWT_EXPIRES_IN=1d
+  -DB_HOST=localhost
+  -DB_PORT=3306
+  -DB_USERNAME=root
+  -DB_PASSWORD=tu_contraseña
+  -DB_NAME=tu_db
+  -JWT_SECRET=clave_secreta_segura
+  -JWT_EXPIRES_IN=3600s
 
 - Generar una clave secreta: 
 Abra su terminal o símbolo del sistema.
